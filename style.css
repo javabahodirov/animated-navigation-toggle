@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-toggle {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(45deg, rgba(255, 39, 57, 0.4), rgba(0, 163, 168, 0.4)), url(./bg.jpg);
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle-box {
+    border: 3px solid #fff;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+
+.toggle-box:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+
+.toggle-box:active {
+    background: #000;
+}
+
+.toggle-inbox {
+    width: 60%;
+    height: 50%;
+    position: relative;
+}
+
+.toggline {
+    border-radius: 20px;
+    background: #fff;
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    transform-origin: 50%;
+}
+
+.toggle-top {
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.toggle-middle {
+    top: 40%;
+    left: 0;
+    transition: 0.5s;
+}
+
+.toggle-bottom {
+    top: 80%;
+    left: 0;
+    transition: 0.5s;
+}
